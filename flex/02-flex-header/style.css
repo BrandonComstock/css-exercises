@@ -21,6 +21,7 @@ ul {
   flex: 1;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
@@ -29,6 +30,7 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  display: flex;
   /* this removes the line under the links */
   text-decoration: none;
 }
