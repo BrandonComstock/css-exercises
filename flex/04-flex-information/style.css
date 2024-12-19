@@ -5,6 +5,8 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -14,6 +16,25 @@ img {
   justify-content: center;
   margin: 32px;
 }
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+}
+
+.plant {
+  width: 200px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+
+
 
 /* do not edit this footer */
 .footer {
