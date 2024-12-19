@@ -14,20 +14,22 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 8px;
-  flex: auto;
+  /* align-items: center; */
+  padding: 8px;
+  /* flex: auto; */
 }
 
 .left {
   display: flex;
-  justify-content: start;
+  align-items: center;
+  /* justify-content: start; */
   gap: 16px;
 }
 
 .right {
   display: flex;
-  justify-content: end;
+  align-items: center;
+  /* justify-content: end; */
   gap: 16px;
 }
 
@@ -63,5 +65,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
