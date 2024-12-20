@@ -19,18 +19,21 @@ img {
 
 .items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 52px;
 }
 
 .plant {
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text {
   display: flex;
   justify-content: center;
-  flex-flow: wrap;
+  flex-wrap: wrap;
 }
 
 
