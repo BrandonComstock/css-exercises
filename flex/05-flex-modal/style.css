@@ -20,7 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  padding: 14px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -62,9 +62,10 @@ button {
   border-radius: 8px;
 }
 
-button.container button.cancel {
+button.continue button.cancel {
   display: flex;
   justify-content: flex-start;
+  align-items: left;
 }
 
 button.continue {
@@ -81,9 +82,9 @@ button.cancel {
 
 .header {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 26px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .container {
