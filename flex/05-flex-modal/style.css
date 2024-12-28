@@ -49,7 +49,7 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  flex: 1;
+  flex: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -63,11 +63,14 @@ button {
   border-radius: 8px;
 }
 
-button.continue button.cancel {
+/* button.continue button.cancel {
   display: flex;
   justify-content: flex-start;
   align-items: left;
-}
+} */
+ .buttons {
+  flex: 1;
+ }
 
 button.continue {
   background: royalblue;
@@ -92,4 +95,6 @@ button.cancel {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 16px;
+  gap: 16px;
 }
