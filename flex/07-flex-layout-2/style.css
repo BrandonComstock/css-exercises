@@ -3,7 +3,7 @@ body {
   margin: 0;
   min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: column;
 }
 
@@ -15,7 +15,7 @@ body {
   font-size: 32px;
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -33,7 +33,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-shrink: 0;
-  padding: 16;
+  padding: 16px;
 }
 
 .card {
@@ -42,22 +42,22 @@ body {
   border-radius: 4px;
   display: flex;
   padding: 16px;
-  height: 200px;
-  width: 200px;
-  flex: auto;
-  flex-wrap: wrap;
+  /* height: 200px; */
+  width: 300px;
+  /* flex: auto;
+  flex-wrap: wrap; */
 }
 
 .content {
   display: flex;
-  flex: auto;
+  flex: 1;
 }
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
-  flex: 1;
+  /* flex: 1; */
   padding: 48px;
 }
 
@@ -70,8 +70,9 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 li {
-  padding: 16px;
+  margin-bottom: 16px;
 }
